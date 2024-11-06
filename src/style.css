@@ -1,0 +1,42 @@
+body {
+    background-color: #080808;
+    color: white;
+}
+
+.all-div {
+    background-color: black;
+    color: azure;
+    margin-top: 20px;
+    width: 800px;
+    height: 1200px;
+    margin: auto;
+    display: block;
+    padding: 40px;
+}
+
+span {
+    font-family: zuume, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DBFF00;
+}
+
+.make-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.number-one,
+.number-two,
+.number-three,
+.number-four {
+    flex: 1 1 45%;
+}
